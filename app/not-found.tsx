@@ -1,13 +1,18 @@
 import React from 'react';
-import Link  from 'next/link';
-
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { HomeIcon, SkipBackIcon, StepBackIcon } from 'lucide-react';
 
 const NotFound: React.FC = () => {
     return (
-        <div className="not-found-container">
-            <h1 className="not-found-title">404 - Page Not Found</h1>
-            <p className="not-found-message">Sorry, the page you are looking for does not exist.</p>
-            <Link href="/" className="not-found-link">Go back to Home</Link>
+        <div className="bg-gradient-to-br from-gray-800 to-gray-900 min-h-screen flex items-center justify-center">
+            <div>
+                <h1 className="text-4xl font-bold text-white mb-4">Page Not Found</h1>
+                <p className="text-lg text-white mb-8">Sorry, the page you are looking for does not exist.</p>
+                <Link href="/" className=" text-white bg-gray-800  hover:bg-gray-700 flex items-center p-2 px-4  rounded-xl">
+                        <HomeIcon className="mr-2 h-4 w-4" /> Go back to home
+                </Link>
+            </div>
         </div>
     );
 };
