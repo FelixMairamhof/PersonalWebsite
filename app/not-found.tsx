@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { HomeIcon, SkipBackIcon, StepBackIcon } from 'lucide-react';
+import { HomeIcon} from 'lucide-react';
 
 const NotFound: React.FC = () => {
     return (

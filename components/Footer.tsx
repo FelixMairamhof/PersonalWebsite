@@ -1,4 +1,4 @@
-import { Linkedin, Github, Twitter } from 'lucide-react';
+import { Linkedin, Github } from 'lucide-react';
 
 export function Footer() {
     return (
@@ -8,8 +8,9 @@ export function Footer() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex flex-col md:flex-row justify-between items-center">
     <div className="mb-4 md:mb-0">
-    <span className="text-2xl font-bold text-teal-400">Felix Mairamhof</span>
+    <h1 className='motion-preset-typewriter-[15] motion-duration-2000 text-2xl font-bold text-teal-400'>Felix Mairamhof</h1>
     </div>
+
     <div className="flex space-x-4">
     <a href="https://www.linkedin.com/in/felix-mairamhof-9b7ba4325/" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 flex items-center">
       LinkedIn <Linkedin className="w-6 h-6 ml-2" />
@@ -17,9 +18,9 @@ export function Footer() {
     <a href="https://github.com/FelixMairamhof"  target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 flex items-center">
       GitHub <Github className="w-6 h-6 ml-2" />
     </a>
-    <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 flex items-center">
+    {/* <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 flex items-center">
       Twitter <Twitter className="w-6 h-6 ml-2" />
-    </a>
+    </a> */}
     </div>
     </div>
      <div className="mt-8 text-center text-gray-400 text-sm">
