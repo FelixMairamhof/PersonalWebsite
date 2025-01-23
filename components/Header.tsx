@@ -13,13 +13,13 @@ export default function Header() {
             </p>
           </div>
           <div className="motion-preset-focus motion-duration-2000 relative inline-block hover:scale-95 transition-transform ease-in-out duration-300">
-            <Image
-              src="/felix-mairamhof.jpg"
-              width={256}
-              height={256}
-              alt="Felix Mairamhof"
-              className="rounded-full w-64 h-64 object-cover border-4 border-teal-500 dark:border-teal-400"
-            />
+          <Image
+            src="/felix-mairamhof.jpg"
+            width={256}
+            height={512}
+            alt="Felix Mairamhof"
+            className="rounded-full w-64 h-64 object-cover border-4 border-teal-500 dark:border-teal-400"
+          />
             <div className="absolute inset-0 rounded-full bg-teal-500 dark:bg-teal-400 opacity-0 hover:opacity-20 transition-opacity duration-300"></div>
           </div>
           <div className="mt-4 flex justify-center space-x-4">
