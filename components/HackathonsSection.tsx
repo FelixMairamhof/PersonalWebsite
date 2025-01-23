@@ -9,7 +9,7 @@ export default function HackathonsSection() {
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-teal-500 dark:border-teal-400">
         <ul className="list-disc list-inside text-gray-600 dark:text-gray-300">
           <li className="flex items-center gap-10">
-            Kelag Hackathon "Energy Attack"
+            Kelag Hackathon &quot;Energy Attack&quot;
             <a
               href="https://github.com/FelixMairamhof/Kelag-Hackathon-.NET-Azure-Ticketsystme"
               target="_blank"

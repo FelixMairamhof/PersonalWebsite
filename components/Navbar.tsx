@@ -1,7 +1,6 @@
 // FILE: Navbar.tsx
 "use client";
 import { useState, useEffect } from "react";
-import { BookIcon, CodeXmlIcon, FilesIcon, PlusCircle, VideoIcon } from "lucide-react";
 import Link from 'next/link';
 
 export function Navbar() {
