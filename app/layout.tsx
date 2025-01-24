@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "Felix Mairamhof",
@@ -23,6 +24,7 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-B5M5WPLVMM" />
     </html>
   );
 }
