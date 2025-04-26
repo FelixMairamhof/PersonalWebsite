@@ -14,7 +14,7 @@ export default function Header() {
           </div>
           <div className="motion-preset-focus motion-duration-2000 relative inline-block hover:scale-95 transition-transform ease-in-out duration-300">
           <Image
-            src="/felix-mairamhof.jpg"
+            src="/vangogh.png"
             width={256}
             height={512}
             alt="Felix Mairamhof"

@@ -6,7 +6,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata: Metadata = {
   title: "Felix Mairamhof",
   description: "Personal Website of Felix Mairamhof ",
-  icons: "/favicon.jpg",
+  icons: "/ghibli-removebg-preview.png",
 };
 
 export default function RootLayout({
